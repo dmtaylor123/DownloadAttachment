@@ -1,0 +1,397 @@
+2018-06-20 22:14:26,014 [       DBUserUpdate.java:main:36] - Starting
+2018-06-20 22:14:26,019 [         UserReader.java:main:33] - Reading userfile: C:\Users\dutaylor\DBUserUpdate\Users.csv
+2018-06-20 22:14:26,020 [           DBReader.java:main:30] - Reading dbfile: C:\Users\dutaylor\DBUserUpdate\OracleDB.csv
+2018-06-20 22:14:26,021 [          ORADBUtil.java:main:29] - ** STARTING **
+2018-06-20 22:14:26,021 [          ORADBUtil.java:main:30] - ====================
+2018-06-20 22:14:26,025 [          ORADBUtil.java:main:46] - Dropping username: kmobeck
+2018-06-20 22:14:26,025 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-20 22:14:26,025 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-20 22:14:26,025 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-20 22:14:26,178 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-20 22:14:28,315 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:14:28,315 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:14:28,315 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:14:28,315 [          ORADBUtil.java:main:117] - UserID kmobeck could not be deleted on: localhost/xe
+2018-06-20 22:14:28,315 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:14:28,316 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-20 22:14:28,317 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-20 22:14:28,317 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-20 22:14:28,317 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:117] - UserID kmobeck could not be deleted on: somehost.com/instance
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:46] - Dropping username: mgregg
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-20 22:14:49,326 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:117] - UserID mgregg could not be deleted on: localhost/xe
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-20 22:14:51,329 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-20 22:14:51,330 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:117] - UserID mgregg could not be deleted on: somehost.com/instance
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:46] - Dropping username: PTrombly
+2018-06-20 22:15:12,337 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-20 22:15:12,338 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-20 22:15:12,338 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-20 22:15:12,338 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-20 22:15:14,343 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:15:14,343 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:14,343 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:14,343 [          ORADBUtil.java:main:117] - UserID PTrombly could not be deleted on: localhost/xe
+2018-06-20 22:15:14,344 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:15:14,344 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-20 22:15:14,344 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-20 22:15:14,344 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-20 22:15:14,344 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:117] - UserID PTrombly could not be deleted on: somehost.com/instance
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:46] - Dropping username: ALewis
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-20 22:15:35,352 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-20 22:15:35,353 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-20 22:15:37,359 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:15:37,359 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:37,359 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:37,359 [          ORADBUtil.java:main:117] - UserID ALewis could not be deleted on: localhost/xe
+2018-06-20 22:15:37,359 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:15:37,359 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-20 22:15:37,360 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-20 22:15:37,360 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-20 22:15:37,360 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:117] - UserID ALewis could not be deleted on: somehost.com/instance
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:46] - Dropping username: DDorsey
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-20 22:15:58,363 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:117] - UserID DDorsey could not be deleted on: localhost/xe
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-20 22:16:00,370 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-20 22:16:00,371 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-20 22:16:00,371 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:117] - UserID DDorsey could not be deleted on: somehost.com/instance
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:46] - Dropping username: DMazza
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-20 22:16:21,374 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-20 22:16:21,375 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-20 22:16:21,375 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:117] - UserID DMazza could not be deleted on: localhost/xe
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-20 22:16:23,378 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:117] - UserID DMazza could not be deleted on: somehost.com/instance
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:118] - =====
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:191] - Total number of user IDs to delete: 6.
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:192] - Total number of userIDs failed to fully delete: 6
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:193] - ====================
+2018-06-20 22:16:44,396 [          ORADBUtil.java:main:194] - ** COMPLETED **
+2018-06-20 22:16:45,416 [       DBUserUpdate.java:main:78] - Email sent.
+2018-06-20 22:16:45,416 [       DBUserUpdate.java:main:88] - Completed, exiting
+2018-06-21 16:08:53,664 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:08:53,667 [       DBUserUpdate.java:main:78] - Missing commandline arguments
+2018-06-21 16:11:03,219 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:11:03,221 [       DBUserUpdate.java:main:80] - Missing commandline arguments
+2018-06-21 16:11:55,434 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:12:29,191 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:13:19,453 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:13:19,459 [             DBUtil.java:main:46] - 
+2018-06-21 16:13:19,459 [             DBUtil.java:main:47] - In DBUtil, can't find properties file, returning
+2018-06-21 16:13:19,955 [         UserReader.java:main:53] - 
+2018-06-21 16:13:19,955 [         UserReader.java:main:54] - exiting
+2018-06-21 16:13:32,136 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:13:32,142 [             DBUtil.java:main:46] - 
+2018-06-21 16:13:32,142 [             DBUtil.java:main:47] - In DBUtil, can't find properties file, returning
+2018-06-21 16:13:32,528 [         UserReader.java:main:53] - 
+2018-06-21 16:13:32,528 [         UserReader.java:main:54] - exiting
+2018-06-21 16:13:52,387 [       DBUserUpdate.java:main:31] - Starting
+2018-06-21 16:13:52,828 [         UserReader.java:main:33] - Reading userfile: C:\Users\dutaylor\DBUserUpdate\Users.csv
+2018-06-21 16:13:52,830 [           DBReader.java:main:30] - Reading dbfile: C:\Users\dutaylor\DBUserUpdate\OracleDB.csv
+2018-06-21 16:13:52,831 [          ORADBUtil.java:main:29] - ** STARTING **
+2018-06-21 16:13:52,831 [          ORADBUtil.java:main:30] - ====================
+2018-06-21 16:13:52,831 [          ORADBUtil.java:main:46] - Dropping username: kmobeck
+2018-06-21 16:13:52,831 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-21 16:13:52,831 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-21 16:13:52,831 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-21 16:13:52,996 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-21 16:13:55,153 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:13:55,153 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:13:55,154 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:13:55,154 [          ORADBUtil.java:main:117] - UserID kmobeck could not be deleted on: localhost/xe
+2018-06-21 16:13:55,154 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:13:55,154 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-21 16:13:55,154 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-21 16:13:55,154 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-21 16:13:55,155 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:117] - UserID kmobeck could not be deleted on: somehost.com/instance
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:46] - Dropping username: mgregg
+2018-06-21 16:14:16,200 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-21 16:14:16,201 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-21 16:14:16,201 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-21 16:14:16,201 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:117] - UserID mgregg could not be deleted on: localhost/xe
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-21 16:14:18,206 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:117] - UserID mgregg could not be deleted on: somehost.com/instance
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:46] - Dropping username: PTrombly
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-21 16:14:39,210 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:117] - UserID PTrombly could not be deleted on: localhost/xe
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-21 16:14:41,216 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:117] - UserID PTrombly could not be deleted on: somehost.com/instance
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:46] - Dropping username: ALewis
+2018-06-21 16:15:02,223 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-21 16:15:02,224 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-21 16:15:02,224 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-21 16:15:02,224 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:117] - UserID ALewis could not be deleted on: localhost/xe
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-21 16:15:04,228 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-21 16:15:25,235 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:15:25,235 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:25,235 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:25,235 [          ORADBUtil.java:main:117] - UserID ALewis could not be deleted on: somehost.com/instance
+2018-06-21 16:15:25,235 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:15:25,235 [          ORADBUtil.java:main:46] - Dropping username: DDorsey
+2018-06-21 16:15:25,236 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-21 16:15:25,236 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-21 16:15:25,236 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-21 16:15:25,236 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:117] - UserID DDorsey could not be deleted on: localhost/xe
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-21 16:15:27,247 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:117] - UserID DDorsey could not be deleted on: somehost.com/instance
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:46] - Dropping username: DMazza
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:60] - port: 1521
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:61] - instance: xe
+2018-06-21 16:15:48,253 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:117] - UserID DMazza could not be deleted on: localhost/xe
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-06-21 16:15:50,267 [          ORADBUtil.java:main:60] - port: 9999
+2018-06-21 16:15:50,268 [          ORADBUtil.java:main:61] - instance: instance
+2018-06-21 16:15:50,268 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-06-21 16:16:11,272 [          ORADBUtil.java:main:107] - SQLException 1
+2018-06-21 16:16:11,272 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:16:11,272 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-06-21 16:16:11,272 [          ORADBUtil.java:main:117] - UserID DMazza could not be deleted on: somehost.com/instance
+2018-06-21 16:16:11,272 [          ORADBUtil.java:main:118] - =====
+2018-06-21 16:16:11,273 [          ORADBUtil.java:main:191] - Total number of user IDs to delete: 6.
+2018-06-21 16:16:11,273 [          ORADBUtil.java:main:192] - Total number of userIDs failed to fully delete: 6
+2018-06-21 16:16:11,273 [          ORADBUtil.java:main:193] - ====================
+2018-06-21 16:16:11,273 [          ORADBUtil.java:main:194] - ** COMPLETED **
+2018-06-21 16:16:11,934 [       DBUserUpdate.java:main:95] - Email sent.
+2018-06-21 16:16:11,935 [       DBUserUpdate.java:main:105] - Completed, exiting
+2018-06-22 14:11:03,220 [       DBUserUpdate.java:main:31] - Starting
+2018-06-22 14:11:03,230 [             DBUtil.java:main:46] - password (The system cannot find the file specified)
+2018-06-22 14:11:03,230 [             DBUtil.java:main:47] - In DBUtil, can't find properties file, returning
+2018-06-22 14:11:03,734 [         UserReader.java:main:53] - 
+2018-06-22 14:11:03,734 [         UserReader.java:main:54] - exiting
+2018-06-22 14:11:32,704 [       DBUserUpdate.java:main:31] - Starting
+2018-07-02 08:10:46,245 [       DBUserUpdate.java:main:31] - Starting
+2018-07-02 08:10:46,633 [         UserReader.java:main:33] - Reading userfile: C:\Users\dutaylor\DBUserUpdate\Users.csv
+2018-07-02 08:10:46,637 [           DBReader.java:main:30] - Reading dbfile: C:\Users\dutaylor\DBUserUpdate\OracleDB.csv
+2018-07-02 08:10:46,637 [          ORADBUtil.java:main:29] - ** STARTING **
+2018-07-02 08:10:46,637 [          ORADBUtil.java:main:30] - ====================
+2018-07-02 08:10:46,638 [          ORADBUtil.java:main:46] - Dropping username: kmobeck
+2018-07-02 08:10:46,638 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-07-02 08:10:46,638 [          ORADBUtil.java:main:60] - port: 1521
+2018-07-02 08:10:46,638 [          ORADBUtil.java:main:61] - instance: xe
+2018-07-02 08:10:46,805 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-07-02 08:10:48,972 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:10:48,973 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:10:48,973 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:10:48,973 [          ORADBUtil.java:main:117] - UserID kmobeck could not be deleted on: localhost/xe
+2018-07-02 08:10:48,973 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:10:48,973 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-07-02 08:10:48,974 [          ORADBUtil.java:main:60] - port: 9999
+2018-07-02 08:10:48,974 [          ORADBUtil.java:main:61] - instance: instance
+2018-07-02 08:10:48,974 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-07-02 08:11:10,023 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:11:10,023 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:10,023 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:10,023 [          ORADBUtil.java:main:117] - UserID kmobeck could not be deleted on: somehost.com/instance
+2018-07-02 08:11:10,023 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:11:10,024 [          ORADBUtil.java:main:46] - Dropping username: mgregg
+2018-07-02 08:11:10,024 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-07-02 08:11:10,024 [          ORADBUtil.java:main:60] - port: 1521
+2018-07-02 08:11:10,024 [          ORADBUtil.java:main:61] - instance: xe
+2018-07-02 08:11:10,024 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:117] - UserID mgregg could not be deleted on: localhost/xe
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:60] - port: 9999
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:61] - instance: instance
+2018-07-02 08:11:12,028 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:117] - UserID mgregg could not be deleted on: somehost.com/instance
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:46] - Dropping username: PTrombly
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:60] - port: 1521
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:61] - instance: xe
+2018-07-02 08:11:33,032 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:117] - UserID PTrombly could not be deleted on: localhost/xe
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-07-02 08:11:35,038 [          ORADBUtil.java:main:60] - port: 9999
+2018-07-02 08:11:35,039 [          ORADBUtil.java:main:61] - instance: instance
+2018-07-02 08:11:35,039 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-07-02 08:11:56,043 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:11:56,044 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:56,044 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:56,044 [          ORADBUtil.java:main:117] - UserID PTrombly could not be deleted on: somehost.com/instance
+2018-07-02 08:11:56,044 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:11:56,044 [          ORADBUtil.java:main:46] - Dropping username: ALewis
+2018-07-02 08:11:56,045 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-07-02 08:11:56,045 [          ORADBUtil.java:main:60] - port: 1521
+2018-07-02 08:11:56,045 [          ORADBUtil.java:main:61] - instance: xe
+2018-07-02 08:11:56,045 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:117] - UserID ALewis could not be deleted on: localhost/xe
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-07-02 08:11:58,053 [          ORADBUtil.java:main:60] - port: 9999
+2018-07-02 08:11:58,054 [          ORADBUtil.java:main:61] - instance: instance
+2018-07-02 08:11:58,054 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-07-02 08:12:19,065 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:12:19,065 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:19,065 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:19,065 [          ORADBUtil.java:main:117] - UserID ALewis could not be deleted on: somehost.com/instance
+2018-07-02 08:12:19,065 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:12:19,065 [          ORADBUtil.java:main:46] - Dropping username: DDorsey
+2018-07-02 08:12:19,066 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-07-02 08:12:19,066 [          ORADBUtil.java:main:60] - port: 1521
+2018-07-02 08:12:19,066 [          ORADBUtil.java:main:61] - instance: xe
+2018-07-02 08:12:19,066 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-07-02 08:12:21,077 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:12:21,078 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:21,078 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:21,078 [          ORADBUtil.java:main:117] - UserID DDorsey could not be deleted on: localhost/xe
+2018-07-02 08:12:21,078 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:12:21,078 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-07-02 08:12:21,079 [          ORADBUtil.java:main:60] - port: 9999
+2018-07-02 08:12:21,079 [          ORADBUtil.java:main:61] - instance: instance
+2018-07-02 08:12:21,079 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-07-02 08:12:42,089 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:12:42,089 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:42,089 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:42,089 [          ORADBUtil.java:main:117] - UserID DDorsey could not be deleted on: somehost.com/instance
+2018-07-02 08:12:42,089 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:12:42,089 [          ORADBUtil.java:main:46] - Dropping username: DMazza
+2018-07-02 08:12:42,090 [          ORADBUtil.java:main:59] - hostname: localhost
+2018-07-02 08:12:42,090 [          ORADBUtil.java:main:60] - port: 1521
+2018-07-02 08:12:42,090 [          ORADBUtil.java:main:61] - instance: xe
+2018-07-02 08:12:42,090 [          ORADBUtil.java:main:69] - Connecting to localhost:1521:xe
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:117] - UserID DMazza could not be deleted on: localhost/xe
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:59] - hostname: somehost.com
+2018-07-02 08:12:44,097 [          ORADBUtil.java:main:60] - port: 9999
+2018-07-02 08:12:44,098 [          ORADBUtil.java:main:61] - instance: instance
+2018-07-02 08:12:44,098 [          ORADBUtil.java:main:69] - Connecting to somehost.com:9999:instance
+2018-07-02 08:13:05,102 [          ORADBUtil.java:main:107] - SQLException 1
+2018-07-02 08:13:05,102 [          ORADBUtil.java:main:110] - Error Message: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:13:05,102 [          ORADBUtil.java:main:116] - Error: IO Error: The Network Adapter could not establish the connection
+2018-07-02 08:13:05,102 [          ORADBUtil.java:main:117] - UserID DMazza could not be deleted on: somehost.com/instance
+2018-07-02 08:13:05,102 [          ORADBUtil.java:main:118] - =====
+2018-07-02 08:13:05,102 [          ORADBUtil.java:main:191] - Total number of user IDs to delete: 6.
+2018-07-02 08:13:05,103 [          ORADBUtil.java:main:192] - Total number of userIDs failed to fully delete: 6
+2018-07-02 08:13:05,103 [          ORADBUtil.java:main:193] - ====================
+2018-07-02 08:13:05,103 [          ORADBUtil.java:main:194] - ** COMPLETED **
+2018-07-02 08:13:07,812 [       DBUserUpdate.java:main:94] - Email sent.
+2018-07-02 08:13:07,812 [       DBUserUpdate.java:main:104] - Completed, exiting
